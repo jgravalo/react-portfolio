@@ -5,7 +5,7 @@ import './css/projects.css'
 import './css/slider.css'
 import './css/styles.css'
 import { useEffect, useState } from 'react'
-import './css/App.css'
+//import './css/App.css'
 import Nav from './Nav.jsx'
 
 function App() {
