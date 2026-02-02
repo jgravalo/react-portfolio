@@ -6,7 +6,7 @@ import './css/slider.css'
 import './css/styles.css'
 import { useEffect, useState } from 'react'
 //import './css/App.css'
-import Nav from './Nav.jsx'
+import Nav from './components/Nav.jsx'
 
 function App() {
   const [repos, setRepos] = useState([]);
