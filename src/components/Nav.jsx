@@ -32,23 +32,6 @@ const Nav = ({ items = ["Home", "About", "Contact"], onSelect }) => {
             </div>
         </nav>
     );
-    return (
-        <nav>
-            <ul style={{ listStyle: "none", padding: 0, margin: 0, display: "flex", gap: 12 }}>
-                {items.map((item, idx) => (
-                    <li key={idx}>
-                        <button
-                            type="button"
-                            onClick={() => onSelect && onSelect(item)}
-                            style={{ background: "transparent", border: "none", cursor: "pointer" }}
-                        >
-                            {item}
-                        </button>
-                    </li>
-                ))}
-            </ul>
-        </nav>
-    );
 };
 
 export default Nav;
