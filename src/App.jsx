@@ -64,7 +64,7 @@ function App() {
           </div>
           <div className="hexagon-border">
             <div className="hexagon">
-              {/* <img width="400" height="400" src="https://github.com/jgravalo.png" alt="Jesús Grávalos"> */}
+              <img width="400" height="400" src="https://github.com/jgravalo.png" alt="Jesús Grávalos"></img>
             </div>
           </div>
         </header>
